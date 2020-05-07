@@ -15,6 +15,7 @@
 		A3F72B1B2463D27800A07E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F72B192463D27800A07E24 /* LaunchScreen.storyboard */; };
 		A3F72B262463D27800A07E24 /* Custom_Video_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F72B252463D27800A07E24 /* Custom_Video_PlayerTests.swift */; };
 		A3F72B312463D27800A07E24 /* Custom_Video_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F72B302463D27800A07E24 /* Custom_Video_PlayerUITests.swift */; };
+		A3F72B3F2463E3FD00A07E24 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3F72B3E2463E3FC00A07E24 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A3F72B2C2463D27800A07E24 /* Custom_Video_PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Custom_Video_PlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F72B302463D27800A07E24 /* Custom_Video_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Video_PlayerUITests.swift; sourceTree = "<group>"; };
 		A3F72B322463D27800A07E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F72B3E2463E3FC00A07E24 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A3F72B022463D27200A07E24 = {
 			isa = PBXGroup;
 			children = (
+				A3F72B3E2463E3FC00A07E24 /* video.mp4 */,
 				A3F72B0D2463D27300A07E24 /* Custom_Video_Player */,
 				A3F72B242463D27800A07E24 /* Custom_Video_PlayerTests */,
 				A3F72B2F2463D27800A07E24 /* Custom_Video_PlayerUITests */,
@@ -235,6 +238,7 @@
 				A3F72B1B2463D27800A07E24 /* LaunchScreen.storyboard in Resources */,
 				A3F72B182463D27800A07E24 /* Assets.xcassets in Resources */,
 				A3F72B162463D27300A07E24 /* Main.storyboard in Resources */,
+				A3F72B3F2463E3FD00A07E24 /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
